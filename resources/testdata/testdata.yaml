@@ -1,0 +1,10 @@
+# Test data for the sign-up test case.
+# phone and email_user can be overridden at run time, e.g.
+#   robot -v phone:0812345678 -v email_user:yourname -d results testcases
+first_name: Robot
+last_name: Tester
+email_user: robot.signup.test
+email_domain: example.com
+phone: "0XXXXXXXXX"
+password: RobotTest2026
+otp_message: ระบบได้ส่งรหัส OTP ไปยังเบอร์โทรศัพท์
